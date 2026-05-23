@@ -1,0 +1,18 @@
+# Go build artifacts
+*.exe
+*.test
+*.prof
+*.out
+coverage.out
+
+# Vendored dependencies (we use go modules directly)
+/vendor/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local tooling state
+.claude/
